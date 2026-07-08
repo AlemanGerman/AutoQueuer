@@ -12,4 +12,4 @@ curl -fsSL https://enlace-a-tu-extension-js-compilado.js -o ~/.config/spicetify/
 spicetify config custom_apps autoqueuer
 spicetify apply
 
-echo "AutoQueuer installed succesfully!"
+echo "AutoQueuer installed succesfully! :D"
