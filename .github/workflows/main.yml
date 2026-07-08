@@ -19,7 +19,7 @@ jobs:
       - name: Install Spicetify CLI
         run: |
           curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh -o install.sh
-          echo "n" | sh install.sh
+          sh install.sh || true
           echo "$HOME/.spicetify" >> $GITHUB_PATH
 
       - name: Install dependencies
