@@ -1,15 +1,11 @@
-# Dependencias
 node_modules/
 
-# Archivos autogenerados que NO deben ir a GitHub
 extension.js
 index.js
 dist/
 
-# Configuración personal de Spicetify
 config-xpui.ini
 
-# Archivos de entorno y logs
 .env
 *.log
 .DS_Store
