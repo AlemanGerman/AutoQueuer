@@ -12,7 +12,9 @@ Es especialmente útil para álbumes o canciones con transiciones, donde el orde
 
 ## Capturas de pantalla
 
-![alt text](<Screenshot.png>)
+![alt text](<Ss_base.png>)
+![alt text](<Ss_rules.png>)
+![alt text](<Ss_editing.png>)
 
 ---
 
@@ -148,4 +150,4 @@ Si encuentras un problema o tienes una idea para mejorar AutoQueuer, no dudes en
 
 ## Licencia
 
-Actualmente este proyecto no cuenta con una licencia.
+Licencia MIT
