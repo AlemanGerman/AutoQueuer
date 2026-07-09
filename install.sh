@@ -1,15 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "Installing AutoQueuer..."
+CUSTOM_APPS_DIR="$(spicetify -c | xargs dirname)/CustomApps"
+APP_DIR="$CUSTOM_APPS_DIR/AutoQueuer"
 
-mkdir -p ~/.config/spicetify/custom_apps/autoqueuer
+mkdir -p "$APP_DIR"
 
-curl -fsSL https://raw.githubusercontent.com/TuUsuario/AutoQueuer/main/manifest.json -o ~/.config/spicetify/custom_apps/autoqueuer/manifest.json
-curl -fsSL https://raw.githubusercontent.com/TuUsuario/AutoQueuer/main/icon.svg -o ~/.config/spicetify/custom_apps/autoqueuer/icon.svg
+curl -fsSL https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/manifest.json -o "$APP_DIR/manifest.json"
+curl -fsSL https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/icon.svg -o "$APP_DIR/icon.svg"
 
-curl -fsSL https://enlace-a-tu-extension-js-compilado.js -o ~/.config/spicetify/custom_apps/autoqueuer/extension.js
+curl -fsSL https://github.com/AlemanGerman/AutoQueuer/releases/latest/download/extension.js -o "$APP_DIR/extension.js"
 
-spicetify config custom_apps autoqueuer
+spicetify config custom_apps AutoQueuer
 spicetify apply
 
-echo "AutoQueuer installed succesfully! :D"
+echo "AutoQueuer installed successfully! :D"
