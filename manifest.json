@@ -1,12 +1,12 @@
 {
   "name": "AutoQueuer",
-  "description": "Automate your Spotify queue with custom rules that add one song after another",
-  "preview": "/src/images/Ss_base.png",
+  "description": "Automatically queue a specific song after another using custom Spotify queue rules.",
+  "preview": "preview.png",
   "readme": "README.md",
   "authors": [
     { "name": "AlemanGerman", "url": "https://github.com/AlemanGerman" }
   ],
-  "version": "1.0.0",
+  "tags": ["queue", "automation", "rules", "transitions"],
   "main": "index.js",
   "css": "style.css"
 }
