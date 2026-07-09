@@ -148,4 +148,4 @@ If you have an idea to improve AutoQueuer or find a bug, feel free to open an Is
 
 ## License
 
-This project currently has no license.
+MIT License
