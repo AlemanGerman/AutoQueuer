@@ -12,13 +12,11 @@ It's especially useful for albums or songs with seamless transitions, where play
 
 ## Screenshots
 
-![alt text](src/images/Ss_base.png>)
+![alt text](src/images/Ss_base.png)
 
+![alt text](src/images/Ss_rules.png)
 
-![alt text](src/images/Ss_rules.png>)
-
-
-![alt text](src/images/Ss_editing.png>)
+![alt text](src/images/Ss_editing.png)
 
 ## Why AutoQueuer?
 
