@@ -12,9 +12,9 @@ It's especially useful for albums or songs with seamless transitions, where play
 
 ## Screenshots
 
-![alt text](<Ss_base.png>)
-![alt text](<Ss_rules.png>)
-![alt text](<Ss_editing.png>)
+![alt text](</autoqueuer/src/images/Ss_base.png>)
+![alt text](</autoqueuer/src/images/Ss_rules.png>)
+![alt text](</autoqueuer/src/images/Ss_editing.png>)
 
 ## Why AutoQueuer?
 
