@@ -4,6 +4,5 @@
   "authors": ["AlemanGerman"],
   "version": "1.0.0",
   "main": "index.js",
-  "icon": "icon.svg",
   "css": "style.css"
 }
