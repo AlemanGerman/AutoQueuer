@@ -8,5 +8,8 @@
   ],
   "tags": ["queue", "automation", "rules", "transitions"],
   "main": "index.js",
-  "css": "style.css"
+  "css": "style.css",
+  "subfiles_extension": [
+    "extension.js"
+  ]
 }
