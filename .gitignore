@@ -2,5 +2,10 @@ node_modules/
 
 config-xpui.ini
 
+.DS_Store
+dist/
+node_modules/
+.vscode/
+
 *.log
 .DS_Store
