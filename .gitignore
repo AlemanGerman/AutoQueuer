@@ -1,11 +1,6 @@
 node_modules/
 
-extension.js
-index.js
-dist/
-
 config-xpui.ini
 
-.env
 *.log
 .DS_Store
