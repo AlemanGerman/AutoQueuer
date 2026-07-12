@@ -1,4 +1,5 @@
 # AutoQueuer
+**By AlemanGerman | [GitHub](https://github.com/AlemanGerman)**
 
 **Language:** English | [Español](README.es.md)
 
@@ -14,7 +15,9 @@ It's especially useful for albums or songs with seamless transitions, where play
 
 ![alt text](src/images/Ss_base.png)
 
+
 ![alt text](src/images/Ss_rules.png)
+
 
 ![alt text](src/images/Ss_editing.png)
 
@@ -51,6 +54,14 @@ You can also decide whether the transition should always happen or only trigger 
 * Spicetify
 * Spotify
 * Internet connection to search for songs
+
+### Windows
+
+Open PowerShell and run the following command:
+
+```powershell
+Invoke-WebRequest -UseBasicParsing "[https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/install.ps1](https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/install.ps1)" | Invoke-Expression
+```
 
 ### macOS / Linux
 
@@ -125,10 +136,6 @@ No. Just open AutoQueuer and start creating rules.
 ### Does it work with local files?
 
 Not yet.
-
-### Does it work on Windows?
-
-The app should work wherever Spicetify is supported, but installation instructions are currently only available for macOS and Linux.
 
 ---
 

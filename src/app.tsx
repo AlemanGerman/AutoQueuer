@@ -800,6 +800,10 @@ function App(): React.JSX.Element {
           transition={transitionPendingDelete}
         />
       ) : null}
+
+      <footer className={styles.footer}>
+        Creado por <a href="https://github.com/AlemanGerman/AutoQueuer" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>AlemanGerman</a>
+      </footer>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 # AutoQueuer
+**Por AlemanGerman | [GitHub](https://github.com/AlemanGerman)**
 
 **Idioma:** [English](README.md) | Español
 
@@ -12,13 +13,13 @@ Es especialmente útil para álbumes o canciones con transiciones, donde el orde
 
 ## Capturas de pantalla
 
-![alt text](src/images/Ss_base.png>)
+![alt text](src/images/Ss_base.png)
 
 
-![alt text](src/images/Ss_rules.png>)
+![alt text](src/images/Ss_rules.png)
 
 
-![alt text](src/images/Ss_editing.png>)
+![alt text](src/images/Ss_editing.png)
 
 ---
 
@@ -56,9 +57,17 @@ Además, puedes decidir si la transición debe ocurrir siempre o solamente con u
 * Spotify
 * Conexión a internet para buscar canciones
 
+### Windows
+
+Abre PowerShell y ejecuta el siguiente comando:
+
+```powershell
+Invoke-WebRequest -UseBasicParsing "[https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/install.ps1](https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/install.ps1)" | Invoke-Expression
+```
+
 ### macOS / Linux
 
-Ejecuta el siguiente comando:
+Abre la terminal y ejecuta el siguiente comando:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AlemanGerman/AutoQueuer/main/install.sh | sh
@@ -129,10 +138,6 @@ No. Solo abre AutoQueuer y comienza a crear reglas.
 ### ¿Funciona con canciones locales?
 
 Todavía no.
-
-### ¿Funciona en Windows?
-
-La aplicación debería funcionar en cualquier sistema compatible con Spicetify, aunque por ahora solo hay instrucciones de instalación para macOS y Linux.
 
 ---
 
